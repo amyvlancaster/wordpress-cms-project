@@ -1,0 +1,245 @@
+/*
+Theme Name: Mobile Cash
+Author: Amy Lancaster
+Description: A Bootstrap-to-Wordpress template.
+*/
+
+body {
+	font-family: "Raleway", sans-serif;
+	background-color: #F0F1F2;
+	color: #77828C;
+	margin: auto 0;
+}
+
+body.admin-bar nav.navbar.fixed-top {
+	top: 32px;
+}
+
+a {
+	color: #89BaD9;
+}
+
+a:hover {
+	color: #C7D1D9;
+	text-decoration: none;
+}
+
+button {
+
+}
+
+table, th, tr, td {
+	border: 1px solid #77828C;
+	text-align: center;
+	padding: 10px;
+}
+
+.navbar-brand {
+	font-family: "Poiret One", sans-serif;
+	font-size: 50px;
+}
+
+.bg-dark {
+	background-color: #77828C !important;
+}
+
+.top {
+	color: #C7D1D9 !important;
+}
+
+.top:hover {
+	color: #A3B2BF !important;
+}
+
+.dropdown-menu {
+	background-color: #F0F1F2 !important;
+}
+
+.dropdown-item {
+	color: #77828C !important;
+}
+
+.dropdown-item:hover {
+	background-color: #89BAD9 !important ;
+}
+
+.btn {
+	background-color: #89BAD9 !important;
+	border: 0px;
+}
+
+.imgleft {
+	text-align: left;
+}
+
+.imgright {
+	text-align: right;
+}
+
+.mountainimg {
+	width: 50%;
+	height: 50%;
+}
+
+main.container.layout {
+	padding-top: 150px;
+}
+
+article.entry {
+	display: flex;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	border-bottom: 1px solid #ddd;
+}
+
+article.entry:last-child {
+	border:0;
+}
+
+.img {
+	display: flex;
+	padding-right: 20px;
+}
+
+time {
+	display: flex;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+ul.post-categories {
+	text-align: center;
+}
+
+ul.post-categories li {
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: solid 1px #888;
+}
+
+ul.post-categories li:last-child {
+	border: 0;
+}
+
+.readmore:hover {
+	text-decoration: none;
+}
+
+.readmore i {
+	display: inline-block;
+	position: relative;
+	left: 0;
+	transition: left .2s;
+}
+
+.readmore:hover i {
+	left: 5px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #A3B2BF;
+  color: white;
+  z-index: 99;
+  padding-top: 10px;
+}
+
+ul#sidebar {
+	margin-left: 50px;
+	border: 1px solid #ddd;
+	
+}
+
+ul#sidebar, ul#sidebar ul {
+	list-style: none;
+}
+
+ul#sidebar li {
+	margin-right: 10px;
+}
+
+h2.widgettitle {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+input#searchsubmit {
+	margin-top: 10px;
+}
+
+ol.commentlist {
+	list-style: none;
+	padding: 0;
+
+}
+
+.comment-form-comment label {
+	display: block;
+}
+
+.st-title {
+	border-left: 2px solid #77828C;
+	padding-left: 10px;
+}
+
+.position {
+	border-left: 2px solid #77828C;
+	padding-left: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.carousel-caption {
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	left: 0;
+}
+
+footer {
+	height: 30px;
+}
+
+.footercontent {
+	text-align: center;
+}
+
+
+#menu-footer {
+	flex-direction: row !important;
+	display: flex;
+	justify-content: left;
+	margin-left: 10px;
+}
+
+.footercontent a.nav-link {
+	color: #77828C;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0 12px 10px 0;
+}
+
+.copyright {
+	font-size: 16px;
+	padding: 5px 10px 0 0;
+}
+
+p.copyright {
+	position: relative;
+	bottom: 40px;
+	display: flex;
+	justify-content: center;
+	margin-left: 1000px;
+}
+
+.error-page {
+	position: relative;
+	top: 100px;
+	left: 20px;
+}
